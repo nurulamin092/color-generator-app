@@ -1,9 +1,14 @@
 import React from 'react';
-
+import Features from './Features';
+import Footer from './Footer';
+import Header from './Header';
+import './Home.css'
 const Home = () => {
     return (
         <div>
-            <h1>This is home Page</h1>
+            <Header></Header>
+            <Features></Features>
+            <Footer></Footer>
         </div>
     );
 };
